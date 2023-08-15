@@ -1,0 +1,58 @@
+/* Styling for the login container */
+.login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the form */
+  .login form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Styling for input fields */
+  .login input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styling for the submit button */
+  .login button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Styling for error message */
+  .login p {
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+  }
+  
+  /* Styling for "OR" section */
+  .login p:nth-child(3) {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  /* Styling for login link */
+  .login a {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+ 
